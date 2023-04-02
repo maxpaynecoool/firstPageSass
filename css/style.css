@@ -1,0 +1,147 @@
+@charset "UTF-8";
+h1 {
+  color: red;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.socials, .icons, .balls {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.button-back {
+  width: calc(100% - 200px); /* Без calc() не работает, пишет "Error: 100% and 200px have incompatible units" */
+  background-color: #333333;
+}
+
+.p1 {
+  margin-bottom: 50px;
+}
+
+.open1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+
+.open2 {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: Verdana;
+}
+
+.open3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Verdana;
+}
+
+.open4 {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Verdana;
+}
+
+.rale1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Raleway;
+}
+
+.rale2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Raleway;
+}
+
+.rale3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Raleway;
+}
+
+.balls {
+  margin-bottom: 50px;
+}
+
+.b1 {
+  background-color: #212121;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.b2 {
+  background-color: #E72424;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.b3 {
+  background-color: #86878B;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.b4 {
+  background-color: #333333;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.b5 {
+  background-color: #000000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.icons {
+  margin-bottom: 50px;
+}
+
+.socials {
+  margin-bottom: 50px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.button-back {
+  margin-bottom: 50px;
+}
+
+.download {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Verdana;
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  padding: 20px 30px;
+  margin: 40px 40px;
+}
+.download:hover {
+  background-color: white;
+  color: #333333;
+}
+
+.element {
+  display: inline-block;
+  border-top: 1px solid white;
+  border-right: none;
+  border-bottom: 1px solid red;
+  border-left: none;
+  padding: 20px 30px;
+  margin: 40px 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

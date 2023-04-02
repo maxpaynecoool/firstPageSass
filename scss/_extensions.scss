@@ -1,0 +1,17 @@
+%headFont {
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+%displayFlex {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+%buttonBackground {
+    width: calc(100% - 200px); /* Без calc() не работает, пишет "Error: 100% and 200px have incompatible units" */
+    background-color: #333333;
+}

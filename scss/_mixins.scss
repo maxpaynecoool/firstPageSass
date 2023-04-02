@@ -1,0 +1,12 @@
+@mixin paragFont($fontSize, $fontWeight, $fontFamily) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    font-family: $fontFamily;
+}
+
+@mixin ballsColor($ballColor) {
+    background-color: $ballColor;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

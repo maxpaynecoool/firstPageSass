@@ -1,0 +1,107 @@
+@import "./extensions.scss";
+@import "./mixins.scss";
+
+h1 {
+    @extend %headFont;
+}
+
+.p1 {
+    margin-bottom: 50px
+}
+
+.open1 {
+    @include paragFont(30px, bold, Verdana);
+}
+
+.open2 {
+    @include paragFont(25px, 900, Verdana);
+}
+
+.open3 {
+    @include paragFont(20px, 600, Verdana);
+}
+
+.open4 {
+    @include paragFont(15px, 300, Verdana);
+}
+
+.rale1 {
+    @include paragFont(40px, bold, Raleway);
+}
+
+.rale2 {
+    @include paragFont(30px, bold, Raleway);
+}
+
+.rale3 {
+    @include paragFont(20px, bold, Raleway);
+}
+
+.balls {
+    @extend %displayFlex;
+    margin-bottom: 50px;
+}
+
+.b1 {
+    @include ballsColor(#212121)
+}
+
+.b2 {
+    @include ballsColor(#E72424)
+}
+
+.b3 {
+    @include ballsColor(#86878B)
+}
+
+.b4 {
+    @include ballsColor(#333333)
+}
+
+.b5 {
+    @include ballsColor(#000000)
+}
+
+.icons {
+    @extend %displayFlex;
+    margin-bottom: 50px;
+}
+
+.socials {
+    @extend %displayFlex;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.button-back {
+    @extend %buttonBackground;
+    margin-bottom: 50px;
+}
+
+.download {
+    @include paragFont(20px, 100, Verdana);
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 30px;
+    margin: 40px 40px;
+
+    &:hover {
+        background-color: white;
+        color: #333333;
+    }
+}
+
+.element {
+    display: inline-block;
+    border-top: 1px solid white;
+    border-right: none;
+    border-bottom: 1px solid red;
+    border-left: none;
+    padding: 20px 30px;
+    margin: 40px 40px;
+}
